@@ -82,6 +82,8 @@ section{
 #skills .section-details ul{
 	display: flex;
 	justify-content: space-around;
+	font-size: 18px;
+
 }
 
 #skills .section-details ul li{
@@ -89,7 +91,6 @@ section{
 }
 
 #skills {
-	width: 85%;
 	margin: 0px auto;
 	background-color: #DDDDDD;
 }
@@ -102,6 +103,8 @@ section{
 #about .section-details{
 	display: flex;
 	flex-direction: row;
+	font-size: 18px;
+
 }
 
 #about{
@@ -111,6 +114,13 @@ section{
 
   #about .section-details img{
   	margin-right: 20px;
+  }
+  #about .about-content span{
+  	color: #C51F8C;
+  }
+  
+  #about .about-content{
+  	font-size: 20px;
   }
 
   #contact {
